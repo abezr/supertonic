@@ -77,10 +77,10 @@ std::string UnicodeProcessor::preprocessText(const std::string& text) {
         {"—", "-"},      // em dash
         {"¯", " "},      // macron
         {"_", " "},      // underscore
-        {""", "\""},     // left double quote (U+201C)
-        {""", "\""},     // right double quote (U+201D)
-        {"'", "'"},      // left single quote (U+2018)
-        {"'", "'"},      // right single quote (U+2019)
+        { u8"\u201C", "\"" },   // left double quote “
+        { u8"\u201D", "\"" },   // right double quote ”
+        { u8"\u2018", "'"  },   // left single quote ‘
+        { u8"\u2019", "'"  },   // right single quote ’
         {"´", "'"},      // acute accent
         {"`", "'"},      // grave accent
         {"[", " "},      // left bracket
@@ -175,9 +175,9 @@ std::string UnicodeProcessor::preprocessText(const std::string& text) {
                 last_three == "」" || last_three == "』" ||
                 last_three == "】" || last_three == "〉" ||
                 last_three == "》" || last_three == "›" ||
-                last_three == "»" || last_three == """ ||
-                last_three == """ || last_three == "'" ||
-                last_three == "'") {
+                last_three == "»" || last_three == u8"\u201C" ||
+                last_three == u8"\u201D" || last_three == u8"\u2018" ||
+                last_three == u8"\u2019") {
                 ends_with_punct = true;
             }
         }
