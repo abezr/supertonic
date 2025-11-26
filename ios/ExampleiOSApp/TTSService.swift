@@ -4,10 +4,6 @@ import OnnxRuntimeBindings
 final class TTSService {
     enum Voice { case male, female }
 
-    struct Settings {
-        var nTest: Int = 1
-    }
-
     struct SynthesisResult {
         let url: URL
         let elapsedSeconds: Double
@@ -43,15 +39,15 @@ final class TTSService {
         }
     }
 
-    func synthesize(text: String, nfe: Int, voice: Voice, settings: Settings = Settings()) async throws -> SynthesisResult {
+    func synthesize(text: String, nfe: Int, voice: Voice) async throws -> SynthesisResult {
         let tic = Date()
 
         // 1) Get or compute style for the selected voice
         let style = try getStyle(voice: voice)
 
         // 2) Synthesize via packed TextToSpeech component
-        let (wav, duration) = try textToSpeech.call([text], style, nfe)
-        let audioSeconds = Double(duration[0])
+        let (wav, duration) = try textToSpeech.call(text, style, nfe)
+        let audioSeconds = Double(duration)
         let wavLenSample = min(Int(Double(sampleRate) * audioSeconds), wav.count)
         let wavOut = Array(wav[0..<wavLenSample])
 
