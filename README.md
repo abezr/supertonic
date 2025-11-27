@@ -9,9 +9,21 @@
 
 **Supertonic** is a lightning-fast, on-device text-to-speech system designed for **extreme performance** with minimal computational overhead. Powered by ONNX Runtime, it runs entirely on your device—no cloud, no API calls, no privacy concerns.
 
-Watch Supertonic running on a **Raspberry Pi**—demonstrating on-device, real-time text-to-speech synthesis:
+## Demo
+
+### Raspberry Pi
+
+Watch Supertonic running on a **Raspberry Pi**, demonstrating on-device, real-time text-to-speech synthesis:
 
 https://github.com/user-attachments/assets/ea66f6d6-7bc5-4308-8a88-1ce3e07400d2
+
+### E-Reader
+
+Experience Supertonic on an **Onyx Boox Go 6** e-reader in airplane mode, achieving an average RTF of 0.3× with zero network dependency:
+
+https://github.com/user-attachments/assets/64980e58-ad91-423a-9623-78c2ffc13680
+
+---
 
 > 🎧 **Try it now**: Experience Supertonic in your browser with our [**Interactive Demo**](https://huggingface.co/spaces/Supertone/supertonic#interactive-demo), or get started with pre-trained models from [**Hugging Face Hub**](https://huggingface.co/Supertone/supertonic)
 
