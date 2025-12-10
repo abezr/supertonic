@@ -7,6 +7,10 @@ This example demonstrates how to use Supertonic in a Flutter application using O
 
 ## 📰 Update News
 
+**2025.12.10** - Added [6 new voice styles](https://huggingface.co/Supertone/supertonic/tree/b10dbaf18b316159be75b34d24f740008fddd381) (M3, M4, M5, F3, F4, F5). See [Voices](https://supertone-inc.github.io/supertonic-py/voices/) for details
+
+**2025.12.08** - Optimized ONNX models via [OnnxSlim](https://github.com/inisis/OnnxSlim) now available on [Hugging Face Models](https://huggingface.co/Supertone/supertonic)
+
 **2025.11.23** - Added and tested macos support.
 
 ## Requirements

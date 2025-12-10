@@ -4,6 +4,12 @@ This guide provides examples for running TTS inference using `example_onnx.py`.
 
 ## 📰 Update News
 
+**2025.12.10** - Added `supertonic` PyPI package! Install via `pip install supertonic` for a streamlined experience. This is a separate usage method from the ONNX examples in this directory. For more details, visit [supertonic-py documentation](https://supertone-inc.github.io/supertonic-py) and see `example_pypi.py` for usage.
+
+**2025.12.10** - Added [6 new voice styles](https://huggingface.co/Supertone/supertonic/tree/b10dbaf18b316159be75b34d24f740008fddd381) (M3, M4, M5, F3, F4, F5). See [Voices](https://supertone-inc.github.io/supertonic-py/voices/) for details
+
+**2025.12.08** - Optimized ONNX models via [OnnxSlim](https://github.com/inisis/OnnxSlim) now available on [Hugging Face Models](https://huggingface.co/Supertone/supertonic)
+
 **2025.11.23** - Enhanced text preprocessing with comprehensive normalization, emoji removal, symbol replacement, and punctuation handling for improved synthesis quality.
 
 **2025.11.19** - Added `--speed` parameter to control speech synthesis speed. Adjust the speed factor to make speech faster or slower while maintaining natural quality.
