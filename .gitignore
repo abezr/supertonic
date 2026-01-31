@@ -69,3 +69,4 @@ pretrained_weights.pt
 # Package installers
 *.deb
 google-chrome-stable_current_amd64.deb
+dataset_marina/
