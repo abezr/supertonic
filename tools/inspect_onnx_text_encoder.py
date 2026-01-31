@@ -2,8 +2,8 @@
 """
 Inspect ONNX Text Encoder structure to determine ConvNeXt block count and embedding dimension.
 
-Usage:
-  python tools/inspect_onnx_text_encoder.py --path onnx/text_encoder.onnx
+Usage (WSL):
+  ./venv/bin/python tools/inspect_onnx_text_encoder.py --path onnx/text_encoder.onnx
 
 Outputs:
   - List of ConvNeXt block indices detected (0-based)

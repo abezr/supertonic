@@ -54,7 +54,7 @@ def train():
         batch_size=BATCH_SIZE, 
         collate_fn=collate_fn, 
         shuffle=True, 
-        num_workers=0 # Windows/WSL often has issues with multiple workers + cuda
+        num_workers=4 # Windows/WSL often has issues with multiple workers + cuda
     )
     
     # 3. Training Loop

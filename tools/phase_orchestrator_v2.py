@@ -242,4 +242,13 @@ if __name__ == "__main__":
             print(f"Loaded phases from {path}")
         except Exception as e:
             print(f"Failed to load PHASES_JSON {path}: {e}. Falling back to defaults.")
+
+    # Warn if COMPILE_MODEL is enabled (can cause hangs)
+    if os.environ.get("COMPILE_MODEL", "0") == "1":
+        print("\n" + "="*60)
+        print("⚠️  WARNING: COMPILE_MODEL=1 detected!")
+        print("   torch.compile may cause training to hang or freeze.")
+        print("   If you experience hangs, disable with: export COMPILE_MODEL=0")
+        print("="*60 + "\n")
+
     orchestrate(phases)

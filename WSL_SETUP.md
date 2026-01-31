@@ -58,6 +58,8 @@ python generate_dataset.py
 deactivate  # when done
 ```
 
+**Note:** For WSL, use `./venv/bin/python` instead of `python` to ensure the correct Python interpreter is used.
+
 **Option C: Direct execution (without activation)**
 ```bash
 ./venv/bin/python generate_dataset.py

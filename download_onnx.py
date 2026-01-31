@@ -57,7 +57,7 @@ def main():
     print("="*60)
     print()
     print("Next step: Run weight conversion")
-    print("  python training/onnx_to_pytorch.py --onnx-dir onnx --output pretrained_weights.pt")
+    print("  ./venv/bin/python training/onnx_to_pytorch.py --onnx-dir onnx --output pretrained_weights.pt")
     print()
 
 if __name__ == "__main__":

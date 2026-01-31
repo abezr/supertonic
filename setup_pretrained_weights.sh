@@ -54,7 +54,7 @@ cd ..
 # 3. Convert ONNX to PyTorch
 echo ""
 echo "Converting ONNX weights to PyTorch..."
-python training/onnx_to_pytorch.py --onnx-dir onnx --output pretrained_weights.pt
+./venv/bin/python training/onnx_to_pytorch.py --onnx-dir onnx --output pretrained_weights.pt
 
 echo ""
 echo "=============================================="

@@ -50,19 +50,44 @@ class TTSDataset(Dataset):
 
     def __getitem__(self, idx):
         import os
+        import sys
         audio_path, text = self.items[idx]
+        
+        if idx == 0:
+            print(f"DEBUG dataset: Getting item 0, original path={audio_path}")
+            sys.stdout.flush()
+        
         audio_path = self._fix_path(audio_path)
+        
+        if idx == 0:
+            print(f"DEBUG dataset: Fixed path={audio_path}")
+            sys.stdout.flush()
         
         # Mel Cache Logic - Avoid redundant CPU extraction
         mel_cache_path = audio_path.replace(".wav", ".mel.pt")
         
         if os.path.exists(mel_cache_path):
+            if idx == 0:
+                print(f"DEBUG dataset: Loading cached mel from {mel_cache_path}")
+                sys.stdout.flush()
             mel = torch.load(mel_cache_path, map_location='cpu', weights_only=True)
+            if idx == 0:
+                print(f"DEBUG dataset: Cached mel loaded, shape={mel.shape}")
+                sys.stdout.flush()
         else:
+            if idx == 0:
+                print(f"DEBUG dataset: No cache found, loading audio from {audio_path}")
+                sys.stdout.flush()
             # Load Audio
             # Windows compatibility fix: explicit backend or fallback
             try:
+                if idx == 0:
+                    print(f"DEBUG dataset: Calling torchaudio.load...")
+                    sys.stdout.flush()
                 waveform, sr = torchaudio.load(audio_path, backend="soundfile")
+                if idx == 0:
+                    print(f"DEBUG dataset: torchaudio.load succeeded, waveform shape={waveform.shape}, sr={sr}")
+                    sys.stdout.flush()
             except Exception as e:
                 # Fallback to soundfile directly
                 import soundfile as sf

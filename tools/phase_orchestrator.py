@@ -87,7 +87,7 @@ def save_state(state):
 
 
 def run_one_epoch(env: dict):
-    """Run one training epoch by invoking: python -m tools.finetune_convnext with EPOCHS=1.
+    """Run one training epoch by invoking: ./venv/bin/python -m tools.finetune_convnext with EPOCHS=1.
     Returns: batches_count, steps_increment (approx via GRAD_ACCUM_STEPS), loss_list
     """
     merged_env = os.environ.copy()
@@ -228,4 +228,13 @@ if __name__ == "__main__":
                 phases = json.load(f)
         except Exception as e:
             print(f"Failed to load PHASES_JSON: {e}. Falling back to defaults.")
+
+    # Warn if COMPILE_MODEL is enabled (can cause hangs)
+    if os.environ.get("COMPILE_MODEL", "0") == "1":
+        print("\n" + "="*60)
+        print("⚠️  WARNING: COMPILE_MODEL=1 detected!")
+        print("   torch.compile may cause training to hang or freeze.")
+        print("   If you experience hangs, disable with: export COMPILE_MODEL=0")
+        print("="*60 + "\n")
+
     orchestrate(phases)

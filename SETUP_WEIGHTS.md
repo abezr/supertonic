@@ -8,7 +8,7 @@ Due to WSL command execution issues, please run these steps manually in your WSL
 cd /mnt/d/study/ai/supertonic
 
 # Option A: Use Python script (recommended)
-python download_onnx.py
+./venv/bin/python download_onnx.py
 
 # Option B: Manual download with curl
 mkdir -p onnx
@@ -24,7 +24,7 @@ cd ..
 ## Step 2: Convert ONNX to PyTorch
 
 ```bash
-python training/onnx_to_pytorch.py --onnx-dir onnx --output pretrained_weights.pt
+./venv/bin/python training/onnx_to_pytorch.py --onnx-dir onnx --output pretrained_weights.pt
 ```
 
 ## Step 3: Delete Old Checkpoint

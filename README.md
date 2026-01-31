@@ -440,6 +440,252 @@ This paper describes the self-purification technique for training flow matching 
 }
 ```
 
+## ConvNeXt Fine-Tuning, Orchestration, and GPU Utilization
+
+This section documents the training pipeline for fine-tuning Supertonic's ConvNeXt encoder with optimized GPU utilization for low VRAM environments (4GB).
+
+### Quick Start
+
+#### Converting ONNX to PyTorch (if needed)
+
+If you have ONNX models and need to convert them to PyTorch format for fine-tuning:
+
+```bash
+./venv/bin/python training/onnx_to_pytorch.py --onnx-dir onnx --output pretrained_weights.pt
+```
+
+#### Single-Epoch Smoke Test
+
+Run a quick test to verify your setup works:
+
+```bash
+COMPILE_MODEL=1 CONVNEXT_BLOCKS=6 PRETRAINED_WEIGHTS=pretrained_weights.pt \
+BATCH_SIZE=4 GRAD_ACCUM_STEPS=6 MAX_GRAD_NORM=1.0 \
+WARMUP_STEPS=1500 EPOCHS=1 \
+./venv/bin/python tools/finetune_convnext.py
+```
+
+#### Full Orchestrator Command with Loss Gate
+
+For production training with automatic phase advancement based on loss thresholds:
+
+```bash
+PHASES_JSON=phases_loss_gate.json CONVNEXT_BLOCKS=6 \
+PRETRAINED_WEIGHTS=pretrained_weights.pt \
+./venv/bin/python tools/phase_orchestrator_v2.py
+```
+
+### Environment Variables
+
+The following environment variables control the fine-tuning behavior:
+
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `CONVNEXT_BLOCKS` | `6` | Number of ConvNeXt blocks in the encoder |
+| `PRETRAINED_WEIGHTS` | `pretrained_weights.pt` | Path to pretrained weights file |
+| `BATCH_SIZE` | `4` | Per-device batch size (reduce for lower VRAM) |
+| `GRAD_ACCUM_STEPS` | `6` | Gradient accumulation steps (effective batch = BATCH_SIZE × GRAD_ACCUM_STEPS) |
+| `COMPILE_MODEL` | `0` | Enable torch.compile for faster training (Ampere+ GPUs) |
+| `MAX_GRAD_NORM` | `1.0` | Maximum gradient norm for clipping (0.5–1.0 recommended) |
+| `WARMUP_STEPS` | `1500` | Number of warmup steps for learning rate scheduling |
+| `EPOCHS` | `100` | Total training epochs |
+| `LOG_EVERY_N_BATCHES` | `10` | Logging frequency (higher = less overhead) |
+| `LEARNING_RATE` | `3e-5` | Main learning rate |
+| `LR_BASE` | `5e-6` | Learning rate for base encoder parameters |
+| `LR_NEW` | `5e-5` | Learning rate for new parameters (embeddings, projections) |
+| `FREEZE_LOWER_BLOCKS` | `0` | Number of lower ConvNeXt blocks to freeze |
+| `UNFREEZE_AFTER_STEPS` | `0` | Steps after which to unfreeze frozen blocks |
+| `CHECKPOINT_PATH` | `checkpoint_convnext.pt` | Path to save/load checkpoints |
+| `DIAG_GPU` | `0` | Enable CUDA event timing for profiling |
+| `DEV_STRESS` | `0` | Run GPU stress test before training |
+
+### Low VRAM Configuration (4GB)
+
+For GPUs with 4GB VRAM (e.g., RTX 3050), use these optimized configurations:
+
+#### Recommended: Optimized Throughput (RTX 3050)
+```bash
+COMPILE_MODEL=1
+BATCH_SIZE=4
+GRAD_ACCUM_STEPS=6
+MAX_GRAD_NORM=1.0
+WARMUP_STEPS=1500
+```
+**Effective batch size: 24** | Higher throughput with torch.compile
+
+#### Alternative: Conservative (Lower VRAM)
+```bash
+COMPILE_MODEL=0
+BATCH_SIZE=2
+GRAD_ACCUM_STEPS=10
+MAX_GRAD_NORM=1.0
+WARMUP_STEPS=1500
+```
+**Effective batch size: 20** | Use if OOM errors occur
+
+#### Alternative: Higher Throughput (if VRAM permits)
+```bash
+COMPILE_MODEL=1
+BATCH_SIZE=3
+GRAD_ACCUM_STEPS=8
+MAX_GRAD_NORM=0.5
+WARMUP_STEPS=1500
+```
+**Effective batch size: 24** | More stable with gradient clipping
+
+**Notes:**
+- Effective batch size = BATCH_SIZE × GRAD_ACCUM_STEPS
+- `COMPILE_MODEL=1` enables torch.compile (Ampere+ GPUs like RTX 3050)
+- Higher BATCH_SIZE with lower GRAD_ACCUM_STEPS = better GPU utilization
+- Monitor GPU memory usage and reduce BATCH_SIZE if OOM errors occur
+- MAX_GRAD_NORM=0.5 provides more stable training but may converge slower
+
+### WSL Dataset Optimization
+
+For WSL users, migrate your dataset from Windows mounts to WSL native filesystem for 5-10x faster I/O:
+
+```bash
+# Migrate dataset to WSL native path
+python tools/migrate_dataset_to_wsl.py --source /mnt/d/study/ai/supertonic/dataset_marina
+
+# Or specify custom destination and filelist
+python tools/migrate_dataset_to_wsl.py \
+  --source /mnt/d/study/ai/supertonic/dataset_marina \
+  --dest ~/datasets/dataset_marina \
+  --filelist /mnt/d/study/ai/supertonic/dataset_marina/filelist.txt
+
+# Dry run to preview what would be copied
+python tools/migrate_dataset_to_wsl.py --source /mnt/d/study/ai/supertonic/dataset_marina --dry-run
+
+# After migration, use the new dataset path in training
+COMPILE_MODEL=1 BATCH_SIZE=4 GRAD_ACCUM_STEPS=6 \
+  ./venv/bin/python tools/finetune_convnext.py
+```
+
+See `tools/migrate_dataset_to_wsl.py --help` for more options.
+
+### Phase Orchestrator v2
+
+The Phase Orchestrator v2 automates multi-phase training with intelligent advancement criteria.
+
+#### Example phases_loss_gate.json
+
+```json
+[
+    {
+        "name": "warmup",
+        "config": {
+            "EPOCHS_PER_CALL": 5,
+            "LEARNING_RATE": 3e-5,
+            "LR_BASE": 5e-6,
+            "LR_NEW": 5e-5,
+            "FREEZE_LOWER_BLOCKS": 0
+        },
+        "criteria": {
+            "min_steps": 1500,
+            "loss_median_below": 12.0
+        }
+    },
+    {
+        "name": "main_training",
+        "config": {
+            "EPOCHS_PER_CALL": 10,
+            "LEARNING_RATE": 3e-5,
+            "LR_BASE": 5e-6,
+            "LR_NEW": 5e-5,
+            "FREEZE_LOWER_BLOCKS": 0
+        },
+        "criteria": {
+            "min_steps": 15000,
+            "loss_median_below": 8.0
+        }
+    }
+]
+```
+
+#### Loss-Gated Advancement
+
+Each phase has criteria that must be met before advancing:
+
+- `min_steps`: Minimum cumulative optimizer steps required
+- `loss_median_below`: Median loss must drop below this threshold
+
+Both conditions must be satisfied. The orchestrator will continue running the current phase until criteria are met.
+
+#### Auto-Retry Behavior
+
+When resuming from a checkpoint where the saved epoch exceeds `EPOCHS_PER_CALL`:
+
+1. Orchestrator detects no batches were processed
+2. Automatically increases `EPOCHS_PER_CALL` (up to 2 retries)
+3. Retries training chunk with adjusted epoch count
+
+### GPU Utilization Optimizations
+
+The training pipeline includes several optimizations for efficient GPU usage:
+
+#### Device-Only Mask Building
+
+- All masks (text, mel, attention) are built directly on the target device
+- Eliminates CPU→GPU transfer overhead for mask tensors
+- MAS (Monotonic Alignment Search) operations stay entirely on GPU
+
+#### DataLoader Tuning
+
+```python
+DataLoader(
+    dataset,
+    batch_size=BATCH_SIZE,
+    num_workers=1,      # Single worker to reduce memory overhead
+    pin_memory=True,    # Faster CPU→GPU transfers
+    shuffle=True
+)
+```
+
+#### Rolling Average Timing Instrumentation
+
+Training logs include performance metrics:
+
+```
+[Perf] data=0.023s, fwd_bwd=0.156s, total=0.189s, gpu_util_hint=82.5%
+```
+
+- `data`: Data loading time
+- `fwd_bwd`: Forward/backward pass time
+- `total`: Total iteration time
+- `gpu_util_hint`: Ratio of compute time to total time
+
+#### Reduced Python Overhead
+
+- `LOG_EVERY_N_BATCHES=10` (or higher) reduces logging frequency
+- Non-blocking data transfers with `non_blocking=True`
+- TF32 enabled on Ampere+ GPUs for faster matrix operations
+
+### Example Commands
+
+```bash
+# Convert ONNX (if needed)
+./venv/bin/python training/onnx_to_pytorch.py --onnx-dir onnx --output pretrained_weights.pt
+
+# Single-epoch smoke test
+CONVNEXT_BLOCKS=6 PRETRAINED_WEIGHTS=pretrained_weights.pt \
+BATCH_SIZE=2 GRAD_ACCUM_STEPS=10 MAX_GRAD_NORM=1.0 \
+WARMUP_STEPS=1500 EPOCHS=1 \
+./venv/bin/python tools/finetune_convnext.py
+
+# Full orchestrator v2 with loss gate
+PHASES_JSON=phases_loss_gate.json CONVNEXT_BLOCKS=6 \
+PRETRAINED_WEIGHTS=pretrained_weights.pt \
+./venv/bin/python tools/phase_orchestrator_v2.py
+
+# Direct fine-tuning with custom parameters
+CONVNEXT_BLOCKS=6 PRETRAINED_WEIGHTS=pretrained_weights.pt \
+BATCH_SIZE=2 GRAD_ACCUM_STEPS=12 MAX_GRAD_NORM=0.5 \
+WARMUP_STEPS=1500 EPOCHS=10 \
+LEARNING_RATE=3e-5 LR_BASE=5e-6 LR_NEW=2e-5 \
+./venv/bin/python tools/finetune_convnext.py
+```
+
 ## License
 
 This project's sample code is released under the MIT License. - see the [LICENSE](https://github.com/supertone-inc/supertonic?tab=MIT-1-ov-file) for details.
@@ -450,3 +696,43 @@ This model was trained using PyTorch, which is licensed under the BSD 3-Clause L
 
 Copyright (c) 2026 Supertone Inc.
 
+
+
+
+
+
+The training script is now running successfully in WSL with CUDA support! Here's what was done:
+
+Summary of Changes
+1. Fixed Model Architecture Mismatch
+The pretrained weights were trained with embed_dim=256 and hidden_dim=256, but the training script was initializing the model with 192. Updated training/train_high_vram.py:
+
+model = Supertonic(
+    vocab_size=2000, 
+    embed_dim=256,      # Changed from 192
+    hidden_dim=256,     # Changed from 192
+    style_dim=128
+).to(device)
+2. Fixed Missing device_type Variable
+The autocast context manager was referencing an undefined device_type variable. Added the missing line in training/train_high_vram.py:
+
+device_type = device.type  # Added this line
+use_amp = (device_type == 'cuda')
+Training is Now Running
+The training is actively running on your RTX 3050 4GB GPU in WSL:
+
+Device: NVIDIA GeForce RTX 3050 Laptop GPU (4.00 GB)
+CUDA: 12.6 (PyTorch 2.10.0+cu126)
+Current Epoch: ~36-37
+Loss: ~1.02-1.05 (decreasing from initial ~1.5+)
+How to Run Training
+Use this command to run training in WSL with the venv:
+
+wsl -d Ubuntu -e bash -c "cd /mnt/d/study/ai/supertonic && source venv_wsl/bin/activate && python -m training.train_high_vram"
+Or enter WSL interactively:
+
+wsl -d Ubuntu
+cd /mnt/d/study/ai/supertonic
+source venv_wsl/bin/activate
+python -m training.train_high_vram
+The training will save checkpoints to checkpoint_high_vram.pt after each epoch.

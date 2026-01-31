@@ -1,11 +1,1 @@
-=== Python Linting Report for generate_dataset.py ===
-Generated: Tue, Jan 27, 2026  1:42:21 AM
-
-Syntax Check:
-✓ PASS - No syntax errors
-
-Available linters:
-- flake8: Not installed
-- ruff: Not installed
-
-Status: No linting issues found (syntax valid)
+ ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND  No package.json (or package.yaml, or package.json5) was found in "D:\study\ai\supertonic".

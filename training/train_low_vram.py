@@ -37,6 +37,7 @@ def train():
     EPOCHS = int(os.environ.get("EPOCHS", 100))
     CHECKPOINT_PATH = os.environ.get("CHECKPOINT_PATH", "checkpoint_low_vram.pt")
     MAX_GRAD_NORM = float(os.environ.get("MAX_GRAD_NORM", 1.0))
+    LOG_EVERY_N_BATCHES = int(os.environ.get("LOG_EVERY_N_BATCHES", 10))
     
     if not os.path.exists("unicode_indexer_expanded.json"):
         print("Building tokenizer...")
@@ -73,7 +74,7 @@ def train():
         print(f"\n{'!'*60}")
         print(f"⚠️  WARNING: No pretrained weights found!")
         print(f"   Training from random initialization (not recommended)")
-        print(f"   Run: python training/onnx_to_pytorch.py --onnx-dir <path>")
+        print(f"   Run: ./venv/bin/python training/onnx_to_pytorch.py --onnx-dir <path>")
         print(f"{'!'*60}\n")
     
     optimizer = optim.AdamW(model.parameters(), lr=LEARNING_RATE)
@@ -96,57 +97,88 @@ def train():
         print("Prepare 'dataset_marina/filelist.txt' by running generate_dataset.py")
         return
 
+    print(f"DEBUG: Creating TTSDataset...")
+    sys.stdout.flush()
     dataset = TTSDataset("dataset_marina/filelist.txt", "unicode_indexer_expanded.json")
+    print(f"DEBUG: Dataset created with {len(dataset)} items")
+    sys.stdout.flush()
+    
+    print(f"DEBUG: Creating DataLoader with batch_size={BATCH_SIZE}, num_workers=4...")
+    sys.stdout.flush()
     loader = DataLoader(
         dataset, 
         batch_size=BATCH_SIZE, 
         collate_fn=collate_fn, 
         shuffle=True, 
-        num_workers=0 # Windows/WSL often has issues with multiple workers + cuda
+        num_workers=0,  # DEBUG: Set to 0 to avoid multiprocessing issues
+        pin_memory=False  # DEBUG: Disable pin_memory for debugging
     )
+    print(f"DEBUG: DataLoader created")
+    sys.stdout.flush()
     
-    # 3. Training Loop
     # 3. Training Loop
     model.train()
     print(f"Beginning training. Mel caching enabled in dataset.")
     print(f"Watch 'Iter Time' to verify processing speed.\n")
     
+    # Rolling average timing instrumentation
+    timing_window_size = LOG_EVERY_N_BATCHES
+    data_times = []
+    fwd_bwd_times = []
+    total_times = []
+    
+    print(f"DEBUG: Starting training loop for {EPOCHS} epochs, starting from epoch {start_epoch}")
+    sys.stdout.flush()
+    
     for epoch in range(start_epoch, EPOCHS):
+        print(f"DEBUG: Starting epoch {epoch}")
+        sys.stdout.flush()
         running_loss = 0.0
-        start_time = time.time()
+        data_start = time.time()
+        
+        print(f"DEBUG: About to iterate DataLoader (num_workers={loader.num_workers}, pin_memory={loader.pin_memory})")
+        sys.stdout.flush()
         
         for batch_idx, (text_padded, text_lens, mel_padded, mel_lens, paths, lang_ids) in enumerate(loader):
+            if batch_idx == 0:
+                print(f"DEBUG: First batch received! batch_idx={batch_idx}")
+                sys.stdout.flush()
+            if batch_idx % LOG_EVERY_N_BATCHES == 0:
+                print(f"DEBUG: Processing batch {batch_idx}")
+                sys.stdout.flush()
             batch_start = time.time()
-            text_padded = text_padded.to(device)
-            mel_padded = mel_padded.to(device)
-            lang_ids = lang_ids.to(device)
+            data_time = batch_start - data_start
             
-            # Record Data Loading time (approx)
-            data_time = batch_start - start_time if batch_idx == 0 else batch_start - step_end
+            text_padded = text_padded.to(device, non_blocking=True)
+            mel_padded = mel_padded.to(device, non_blocking=True)
+            lang_ids = lang_ids.to(device, non_blocking=True)
             
-            style = torch.randn(text_padded.size(0), 128).to(device)
+            style = torch.randn(text_padded.size(0), 128, device=device)
             optimizer.zero_grad()
             
             device_type = 'cuda' if device.type == 'cuda' else 'cpu'
+            fwd_bwd_start = time.time()
             with torch.amp.autocast(device_type=device_type, enabled=use_amp):
                 # 1. Text Encoder
                 text_emb = model.text_encoder(text_padded, style, lang_ids=lang_ids)
                 
-                # 2. Monotonic Alignment Search (FIXED)
+                # 2. Monotonic Alignment Search (FIXED) - Build masks on device
+                T_text = text_padded.size(1)
+                T_mel = mel_padded.size(2)
+                idx_text = torch.arange(T_text, device=device)[None, :]
+                idx_mel = torch.arange(T_mel, device=device)[None, :]
+                text_mask = idx_text < text_lens[:, None].to(device, non_blocking=True)
+                mel_mask = idx_mel < mel_lens[:, None].to(device, non_blocking=True)
+                
                 with torch.no_grad():
                     # Project text embeddings to mel space for similarity
                     text_proj = model.vector_estimator.final_proj(text_emb)  # [B, T_text, 80]
                     
-                    # Compute similarity matrix (negative distance = log-likelihood)
-                    dist = torch.cdist(text_proj, mel_padded.transpose(1, 2))  # [B, T_text, T_mel]
-                    log_p = -dist
+                    # Compute similarity matrix (negative distance = log-likelihood) - stays on device
+                    log_p = -torch.cdist(text_proj, mel_padded.transpose(1, 2))  # [B, T_text, T_mel]
                     
-                    # Create masks
-                    text_mask = torch.arange(text_padded.size(1), device=device)[None, :] < text_lens[:, None].to(device)
-                    mel_mask = torch.arange(mel_padded.size(2), device=device)[None, :] < mel_lens[:, None].to(device)
+                    # Create attention mask and find optimal alignment path - both on device
                     attn_mask = text_mask.unsqueeze(2) * mel_mask.unsqueeze(1)  # [B, T_text, T_mel]
-                    
-                    # Find optimal alignment path
                     attn = maximum_path(log_p, attn_mask)  # [B, T_text, T_mel]
                     
                     # Extract duration targets from alignment
@@ -177,7 +209,6 @@ def train():
                 loss = loss / GRAD_ACCUM_STEPS
 
             # Backward / Step
-            fp_bp_start = time.time()
             scaler.scale(loss).backward()
             
             if (batch_idx + 1) % GRAD_ACCUM_STEPS == 0:
@@ -189,18 +220,45 @@ def train():
                 optimizer.zero_grad()
             
             step_end = time.time()
+            fwd_bwd_time = step_end - fwd_bwd_start
+            total_time = step_end - batch_start
             
             running_loss += loss.item() * GRAD_ACCUM_STEPS
             
-            if batch_idx % 1 == 0: # Print every batch for low vram feedback
-                total_time = step_end - batch_start
-                gpu_time = step_end - fp_bp_start
-                samples_per_sec = BATCH_SIZE / total_time if total_time > 0 else 0.0
+            # Update rolling averages
+            data_times.append(data_time)
+            fwd_bwd_times.append(fwd_bwd_time)
+            total_times.append(total_time)
+            if len(data_times) > timing_window_size:
+                data_times.pop(0)
+                fwd_bwd_times.pop(0)
+                total_times.pop(0)
+            
+            # Log every N batches
+            if batch_idx % LOG_EVERY_N_BATCHES == 0:
+                avg_data = sum(data_times) / len(data_times) if data_times else 0.0
+                avg_fwd_bwd = sum(fwd_bwd_times) / len(fwd_bwd_times) if fwd_bwd_times else 0.0
+                avg_total = sum(total_times) / len(total_times) if total_times else 0.0
                 
-                print(f"Epoch {epoch} | Batch {batch_idx:3d} | Loss {loss.item()*GRAD_ACCUM_STEPS:.4f} | " 
-                      f"Speed: {samples_per_sec:.2f} items/s | "
-                      f"Time: {total_time:.2f}s (GPU {gpu_time:.2f}s)")
+                # Guard samples_per_sec to avoid negatives when timings are tiny
+                sps = BATCH_SIZE / avg_total if avg_total > 0 else 0.0
+                
+                # GPU utilization hint: ratio of compute time to total time
+                gpu_util_hint = avg_fwd_bwd / avg_total if avg_total > 0 else 0.0
+                
+                print(f"Epoch {epoch} | Batch {batch_idx:3d} | Loss {loss.item()*GRAD_ACCUM_STEPS:.4f} | "
+                      f"Speed: {sps:.2f} items/s | "
+                      f"Time: {total_time:.2f}s (GPU {fwd_bwd_time:.2f}s)")
+                
+                # Print perf summary every N batches
+                if batch_idx > 0:
+                    print(f"[Perf] data={avg_data:.3f}s, fwd_bwd={avg_fwd_bwd:.3f}s, total={avg_total:.3f}s, "
+                          f"gpu_util_hint={gpu_util_hint:.2%}")
+                
                 sys.stdout.flush()
+            
+            # Reset data_start for next iteration
+            data_start = time.time()
         
         # Save checkpoint
         torch.save({

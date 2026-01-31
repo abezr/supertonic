@@ -36,8 +36,8 @@ def train():
     
     model = Supertonic(
         vocab_size=2000, 
-        embed_dim=192,
-        hidden_dim=192,
+        embed_dim=256,
+        hidden_dim=256,
         style_dim=128
     ).to(device)
     
@@ -54,12 +54,13 @@ def train():
         print(f"\n{'!'*60}")
         print(f"⚠️  WARNING: No pretrained weights found!")
         print(f"   Training from random initialization (not recommended)")
-        print(f"   Run: python training/onnx_to_pytorch.py --onnx-dir <path>")
+        print(f"   Run: ./venv/bin/python training/onnx_to_pytorch.py --onnx-dir <path>")
         print(f"{'!'*60}\n")
     
     optimizer = optim.AdamW(model.parameters(), lr=LEARNING_RATE)
     # Scaler for AMP
-    use_amp = (device.type == 'cuda')
+    device_type = device.type
+    use_amp = (device_type == 'cuda')
     scaler = torch.amp.GradScaler('cuda', enabled=use_amp) 
 
     # Load Checkpoint
@@ -82,7 +83,7 @@ def train():
         batch_size=BATCH_SIZE, 
         collate_fn=collate_fn, 
         shuffle=True, 
-        num_workers=4, # More workers for faster loading
+        num_workers=8, # More workers for faster loading
         pin_memory=True
     )
     
