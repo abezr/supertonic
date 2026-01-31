@@ -59,3 +59,12 @@ htmlcov/
 # OS
 .DS_Store
 Thumbs.db
+
+# Large model checkpoints
+*.pt
+checkpoint_convnext.pt
+pretrained_weights.pt
+
+# Package installers
+*.deb
+google-chrome-stable_current_amd64.deb
