@@ -1,0 +1,8485 @@
+{
+  "phase_index": 0,
+  "total_batches": 4212,
+  "total_steps": 262,
+  "history": [
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 1053,
+      "steps_inc": 65,
+      "loss_mean": 24.705856315289648,
+      "loss_median": 16.0925,
+      "loss_min": 9.0979,
+      "loss_max": 135.666
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 3159,
+      "steps_inc": 197,
+      "loss_mean": 23.325518898385564,
+      "loss_median": 15.1248,
+      "loss_min": 8.561,
+      "loss_max": 130.5522
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    },
+    {
+      "phase": "PhaseA_stabilize",
+      "batches": 0,
+      "steps_inc": 0,
+      "loss_mean": null,
+      "loss_median": null,
+      "loss_min": null,
+      "loss_max": null
+    }
+  ]
+}

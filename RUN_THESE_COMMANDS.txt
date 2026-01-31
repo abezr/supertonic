@@ -1,0 +1,16 @@
+#!/bin/bash
+# CORRECTED SETUP - USE THESE COMMANDS IN YOUR WSL TERMINAL
+
+echo "Run these commands in your WSL terminal:"
+echo ""
+echo "# Step 1: Download ONNX models"
+echo "./venv/bin/python download_onnx.py"
+echo ""
+echo "# Step 2: Convert to PyTorch"
+echo "./venv/bin/python training/onnx_to_pytorch.py --onnx-dir onnx --output pretrained_weights.pt"
+echo ""
+echo "# Step 3: Verify pretrained_weights.pt was created"
+echo "ls -lh pretrained_weights.pt"
+echo ""
+echo "# Step 4: Restart training (will auto-load weights)"
+echo "./run_training.sh"

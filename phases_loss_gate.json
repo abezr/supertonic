@@ -1,0 +1,68 @@
+[
+    {
+        "name": "PhaseA_stabilize",
+        "env": {
+            "ENCODER_TYPE": "convnext",
+            "CONVNEXT_BLOCKS": "6",
+            "PRETRAINED_WEIGHTS": "pretrained_weights.pt",
+            "LEARNING_RATE": "2e-5",
+            "LR_BASE": "2e-6",
+            "LR_NEW": "1e-5",
+            "BATCH_SIZE": "2",
+            "GRAD_ACCUM_STEPS": "16",
+            "MAX_GRAD_NORM": "0.5",
+            "WARMUP_STEPS": "2000",
+            "FREEZE_LOWER_BLOCKS": "4",
+            "UNFREEZE_AFTER_STEPS": "6000",
+            "EPOCHS_PER_CALL": "5"
+        },
+        "criteria": {
+            "min_steps": 3000,
+            "loss_median_below": 12.0
+        }
+    },
+    {
+        "name": "PhaseB_progressive_unfreeze",
+        "env": {
+            "ENCODER_TYPE": "convnext",
+            "CONVNEXT_BLOCKS": "6",
+            "PRETRAINED_WEIGHTS": "pretrained_weights.pt",
+            "LEARNING_RATE": "3e-5",
+            "LR_BASE": "5e-6",
+            "LR_NEW": "2e-5",
+            "BATCH_SIZE": "2",
+            "GRAD_ACCUM_STEPS": "12",
+            "MAX_GRAD_NORM": "1.0",
+            "WARMUP_STEPS": "1500",
+            "FREEZE_LOWER_BLOCKS": "2",
+            "UNFREEZE_AFTER_STEPS": "12000",
+            "EPOCHS_PER_CALL": "3"
+        },
+        "criteria": {
+            "min_steps": 8000,
+            "loss_median_below": 10.0
+        }
+    },
+    {
+        "name": "PhaseC_full_finetune",
+        "env": {
+            "ENCODER_TYPE": "convnext",
+            "CONVNEXT_BLOCKS": "6",
+            "PRETRAINED_WEIGHTS": "pretrained_weights.pt",
+            "LEARNING_RATE": "3e-5",
+            "LR_BASE": "5e-6",
+            "LR_NEW": "3e-5",
+            "BATCH_SIZE": "2",
+            "GRAD_ACCUM_STEPS": "12",
+            "MAX_GRAD_NORM": "1.0",
+            "WARMUP_STEPS": "1000",
+            "FREEZE_LOWER_BLOCKS": "0",
+            "UNFREEZE_AFTER_STEPS": "0",
+            "EPOCHS_PER_CALL": "2"
+        },
+        "criteria": {
+            "min_steps": 15000,
+            "loss_median_below": 8.0
+        }
+    }
+]
